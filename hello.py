@@ -420,5 +420,14 @@ i=4
 m=[[0 for i in range(4)] for i in range(5)]
 
 
-print(m)
+def kkkk():
+    a=list(map(int,input().split()))
+    x=a[1]
+    a=list(map(int,input().split()))
+    a.sort()
+    print(" ".join(list(map(str,a[0:x]))))
+
+
+
+
 

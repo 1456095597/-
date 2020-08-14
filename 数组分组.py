@@ -25,7 +25,11 @@ def lll(x,y,t):
         z=t[0]
         return lll(x+z,y,t[1:len(t)]) or lll(x,y+z,t[1:len(t)])
 
-kkk()
+while True:
+    try:
+        kkk()
+    except:
+        break
   
 
     
