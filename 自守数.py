@@ -15,10 +15,13 @@ def kkk():
                     break
             if j==0:
                 z+=1
-                print(i+1)
-    print(z)
-
-kkk()
+                
+    print(z+1)
+while True:
+    try:
+        kkk()
+    except:
+        break
 
 
         

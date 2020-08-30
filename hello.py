@@ -427,7 +427,18 @@ def kkkk():
     a.sort()
     print(" ".join(list(map(str,a[0:x]))))
 
+def aaa():
+    a=input()
+    a=input().split()
+    a.reverse()
+    b=int(input())
+    print(a[b-1])
 
+while True:
+    try:
+        aaa()
+    except:
+        break
 
 
 
