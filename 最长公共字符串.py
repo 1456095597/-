@@ -8,10 +8,10 @@ def findn():
             if a[i]==b[j] :
                 if i==0 or j==0:
                     d[i][j]=1
-                else:d[i][j]=max1+1
+                else:d[i][j]=d[i-1][j-1]+1
             max1=max(max1,d[i][j])
     if len(a)>len(b): x=len(a) 
     else:x=len(b)
-    print(x-max1)
+    print(max1)
 
 findn()
